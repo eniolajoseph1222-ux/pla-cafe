@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLA Cafe Store</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f3ed;
+            color: #333;
+        }
+
+        header {
+            background: #4b2e20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: #ead8c5;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #4b2e20;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .menu {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            margin-bottom: 30px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .emoji {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #4b2e20;
+            margin: 15px 0;
+        }
+
+        footer {
+            background: #4b2e20;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PLA Cafe ☕</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to PLA Cafe</h2>
+    <p>Fresh coffee, delicious food, and a place to relax.</p>
+    <a href="#menu" class="button">View Our Menu</a>
+</section>
+
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <div class="emoji">☕</div>
+            <h3>Hot Coffee</h3>
+            <p>Freshly brewed coffee.</p>
+            <div class="price">₦2,000</div>
+            <a href="#" class="button">Order</a>
+        </div>
+
+        <div class="product">
+            <div class="emoji">🥤</div>
+            <h3>Iced Coffee</h3>
+            <p>Cold and refreshing coffee.</p>
+            <div class="price">₦2,500</div>
+            <a href="#" class="button">Order</a>
+        </div>
+
+        <div class="product">
+            <div class="emoji">🍰</div>
+            <h3>Chocolate Cake</h3>
+            <p>Soft and delicious chocolate cake.</p>
+            <div class="price">₦3,000</div>
+            <a href="#" class="button">Order</a>
+        </div>
+
+    </div>
+</section>
+
+<footer id="contact">
+    <p>©️ 2026 PLA Cafe Store</p>
+    <p>Contact us: 0800-000-0000</p>
+</footer>
+
+</body>
+</html>
